@@ -13,6 +13,40 @@ layout: default
       {% endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
+    {% if page.availability %}
+      <p class="availability"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i> {{ page.availability }}</p>
+    {% endif %}
+    <nav class="academic-links" aria-label="Academic profile links">
+      {% if page.cv_url %}
+        <a class="academic-link academic-link-cv" href="{{ page.cv_url | relative_url }}" target="_blank" rel="noopener">
+          <i class="fa-solid fa-file-lines" aria-hidden="true"></i>
+          <span>CV</span>
+        </a>
+      {% endif %}
+      {% if site.data.socials.email %}
+        <a class="academic-link" href="mailto:{{ site.data.socials.email | encode_email }}">
+          <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+          <span>Email</span>
+        </a>
+      {% endif %}
+      {% if site.data.socials.scholar_userid %}
+        <a
+          class="academic-link"
+          href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"
+          target="_blank"
+          rel="noopener"
+        >
+          <i class="ai ai-google-scholar" aria-hidden="true"></i>
+          <span>Google Scholar</span>
+        </a>
+      {% endif %}
+      {% if site.data.socials.dblp_url %}
+        <a class="academic-link" href="{{ site.data.socials.dblp_url }}" target="_blank" rel="noopener">
+          <i class="ai ai-dblp" aria-hidden="true"></i>
+          <span>DBLP</span>
+        </a>
+      {% endif %}
+    </nav>
   </header>
 
   <article>
