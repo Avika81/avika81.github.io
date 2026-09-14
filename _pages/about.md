@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student in Computer Science, Bar-Ilan University
+subtitle: PhD Candidate in Computer Science, Bar-Ilan University
 availability: I am looking for postdoctoral positions starting in Fall 2027.
 cv_url: /assets/pdf/academic_cv.pdf
 
