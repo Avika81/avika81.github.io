@@ -15,7 +15,7 @@ nav_order: 2
 {% capture working_count %}{% bibliography_count --query @*[working=true]* %}{% endcapture %}
 {% if working_count != "0" %}
 
-# Working Papers
+# In Preproceedings
 
 <div class="publications">
   {% bibliography --group_by none --query @*[working=true]* %}

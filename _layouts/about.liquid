@@ -83,6 +83,16 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
+    <!-- In preproceedings -->
+    {% if page.preproceedings %}
+      <h2>
+        <a href="{{ '/papers/' | relative_url }}" style="color: inherit">in preproceedings</a>
+      </h2>
+      <div class="publications">
+        {% bibliography --group_by none --query @*[working=true]* %}
+      </div>
+    {% endif %}
+
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
       <h2>

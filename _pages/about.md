@@ -13,6 +13,7 @@ profile:
   more_info: >
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
+preproceedings: true # includes a list of papers marked as "working={true}", right after the news
 social: false # academic links are displayed prominently in the page header
 
 announcements:

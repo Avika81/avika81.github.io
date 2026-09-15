@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Received the Nadav Scholarship at Bar-Ilan University, as the sole master's student selected for exceptional research.
+Received the Nadav Award for excellence research at Bar-Ilan University, as the sole master's student selected.

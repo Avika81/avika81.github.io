@@ -6,6 +6,14 @@
   - firstname: ["Virginia", "V."]
     url: https://people.csail.mit.edu/virgi/
 
+"chechik":
+  - firstname: ["Shiri", "S."]
+    url: https://www.cs.tau.ac.il/~schechik/
+
+"mulzer":
+  - firstname: ["Wolfgang", "W."]
+    url: https://page.mi.fu-berlin.de/mulzer/
+
 "sidford":
   - firstname: ["Aaron", "A."]
     url: https://www.aaronsidford.com/

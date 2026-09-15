@@ -821,6 +821,11 @@ ul.task-list input[type="checkbox"] {
         font-weight: bolder;
       }
 
+      .author,
+      .periodical {
+        font-size: 0.875rem;
+      }
+
       .author {
         a {
           border-bottom: 1px dashed var(--global-theme-color);
