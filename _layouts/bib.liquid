@@ -177,7 +177,7 @@
       {% include hook/bib.liquid %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
-    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
+    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% if entry.journal_venue %}, and <em>{{ entry.journal_venue | split: ',' | first }}</em>,{{ entry.journal_venue | split: ',' | last }}{% endif %}{% endcapture %}
     <div class="periodical">
       {{ periodical | strip }}
     </div>
@@ -197,6 +197,9 @@
       {% endif %}
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
+      {% endif %}
+      {% if entry.journal_doi %}
+        <a href="https://doi.org/{{ entry.journal_doi }}" class="btn btn-sm z-depth-0" role="button">Journal DOI</a>
       {% endif %}
       {% if entry.arxiv %}
         <a href="https://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
