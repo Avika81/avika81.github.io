@@ -869,7 +869,16 @@ ul.task-list input[type="checkbox"] {
           }
         }
         a.award.btn {
-          border-color: var(--global-highlight-color);
+          color: $white-color;
+          background-color: $blue-color;
+          border-color: $blue-color;
+          font-weight: bold;
+
+          &:hover {
+            color: $white-color;
+            background-color: $blue-color-dark;
+            border-color: $blue-color-dark;
+          }
         }
       }
 

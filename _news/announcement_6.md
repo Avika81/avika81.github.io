@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-'Compact Routing Schemes in Undirected and Directed Graphs' won the **Feder Family Award for Best Student Work in Communications**.
+'Compact Routing Schemes in Undirected and Directed Graphs' won **2nd place** in the **Feder Family Award for Best Student Work in Communications**.
