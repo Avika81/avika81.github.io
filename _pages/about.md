@@ -4,7 +4,7 @@ title: about
 permalink: /
 subtitle: PhD Candidate in Computer Science, Bar-Ilan University
 availability: I am looking for postdoctoral positions starting in Fall 2027.
-cv_url: /assets/pdf/academic_cv.pdf
+cv_url: /assets/pdf/Avi_Kadria_CV.pdf
 
 profile:
   align: right
