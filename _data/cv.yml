@@ -36,6 +36,13 @@
       description:
         - "Graduated with honors at the age of 17, studying in parallel with high school."
 
+- title: Preprints
+  type: list
+  contents:
+    - 'Avi Kadria, Liam Roditty. "A Tight Space Lower Bound for Pivot-Based Distance Oracles." arXiv:2610.29624, 2026.'
+    - 'Avi Kadria. "Deterministic Girth Approximation in Weighted Undirected Graphs." arXiv:2610.13452, 2026.'
+    - 'Avi Kadria, Liam Roditty. "A Faster Undirected Single-Source Shortest Path Algorithm." arXiv:2609.15247, 2026.'
+
 - title: Publications
   type: list
   contents:
