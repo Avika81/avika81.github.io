@@ -39,13 +39,16 @@
 - title: Preprints
   type: list
   contents:
+    - 'Avi Kadria, Liam Roditty, Shinwoo An, Wolfgang Mulzer. "Near-Linear Almost Exact Diameter in Weighted Planar Digraphs." 2026.'
+    - 'Shiri Chechik, Avi Kadria, Gur Lifshitz, Liam Roditty. "Optimal (Randomized) Compact Routing Schemes." arXiv:2611.04744, 2026.'
+    - 'Shiri Chechik, Gur Lifshitz, Avi Kadria, Liam Roditty. "Reading between the levels: new tools for the Thorup-Zwick hierarchy and their applications." arXiv:2611.01297, 2026.'
     - 'Avi Kadria, Liam Roditty. "A Tight Space Lower Bound for Pivot-Based Distance Oracles." arXiv:2610.29624, 2026.'
     - 'Avi Kadria. "Deterministic Girth Approximation in Weighted Undirected Graphs." arXiv:2610.13452, 2026.'
-    - 'Avi Kadria, Liam Roditty. "A Faster Undirected Single-Source Shortest Path Algorithm." arXiv:2609.15247, 2026.'
 
 - title: Publications
   type: list
   contents:
+    - 'Avi Kadria, Liam Roditty. "A Faster Undirected Single-Source Shortest Path Algorithm." SOFSEM 2027 (accepted).'
     - 'Avi Kadria, Liam Roditty, Virginia Vassilevska Williams. "Improved Approximation Algorithms for n-Pairs Shortest Paths." ESA 2026.'
     - 'Avi Kadria, Liam Roditty, Virginia Vassilevska Williams. "Tighter Bounds for Weighted and Unweighted Shortest Cycle Approximation." ESA 2026.'
     - 'Avi Kadria, Liam Roditty. "Faster Algorithms for (2k-1)-Stretch Distance Oracles." ICALP 2026.'
