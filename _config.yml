@@ -8,7 +8,7 @@ middle_name:
 last_name: Kadria
 contact_note: >
 
-description: "Avi Kadria's Academic Homepage" # used in meta tags, OpenGraph and JSON-LD
+description: "Avi Kadria is a PhD candidate in computer science at Bar-Ilan University, working on graph algorithms: distance oracles, girth approximation, compact routing schemes, diameter, and fine-grained complexity." # used in meta tags, OpenGraph and JSON-LD
 footer_text: >
 
 keywords:
@@ -231,6 +231,11 @@ plugins:
 defaults:
   - scope:
       path: "assets"
+    values:
+      sitemap: false
+  - scope:
+      path: ""
+      type: news
     values:
       sitemap: false
 
